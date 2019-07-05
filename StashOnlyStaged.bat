@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#found this answer here: https://stackoverflow.com/a/39644782/4860233
+
 #Stash everything temporarily.  Keep staged files, discard everything else after stashing.
 git stash --keep-index
 
